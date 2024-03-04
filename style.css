@@ -350,15 +350,127 @@ main .three .bottom-box>i {
 
 
 /*four*/
+
+
 main .four {
+    padding: 0px 202px;
+    margin: 100px 0px;
+    text-align: center;
+
+}
+
+main .four .four-text {
+    width: 643px;
+    text-align: center;
+    margin: auto;
+}
+
+main .four .four-text p {
+    margin: 20px 0px;
+}
+
+main .four 
+.discount-1,
+.discount-2,
+.discount-3{
+    width: 1170px;
+    height: 500px;
+    background-image: url(Images/Group\ 39.png);
+    background-size: cover;
+    margin: 20px 0px;
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    padding-right: 86px;
+}
+main .four 
+.discount-1 .discount-in-1{
+    width: 579px;
+    height: 389px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 87px 70px;
+    
+}
+
+main .four 
+.discount-2 .discount-in-2{
+    width: 579px;
+    height: 389px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 87px 70px;
+    
+}
+
+main .four 
+.discount-3 .discount-in-3{
+    width: 579px;
+    height: 389px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 87px 70px;
+    
+}
+
+main .four 
+.discount-1 .discount-in-1 p{
+    margin: 20px 0px;
+}
+
+main .four 
+.discount-2 .discount-in-2 p{
+    margin: 20px 0px;
+}
+
+main .four 
+.discount-3 .discount-in-3 p{
+    margin: 20px 0px;
+}
+
+
+main .four .discount-2{
+    background-image: url(Images/Group\ 40.png);
+}
+
+
+main .four .discount-2{
+    width: 1170px;
+    height: 500px;
+    background-image: url(Images/Group\ 39.png);
+    background-size: cover;
+    margin: 20px 0px;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    padding-left: 86px;
+}
+
+
+main .four .discount-3{
+    width: 1170px;
+    height: 500px;
+    background-image: url(Images/Group\ 39.png);
+    background-size: cover;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+/*  */
+
+
+main .five {
     padding: 0px 202px;
     display: flex;
     margin: 100px 0px;
 
 }
-
-/*  */
-
 
 /*  */
 /*  */
