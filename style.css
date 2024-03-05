@@ -467,12 +467,113 @@ main .four .discount-3{
 
 main .five {
     padding: 0px 202px;
-    display: flex;
     margin: 100px 0px;
 
 }
 
-/*  */
+main .five .five-top{
+    display: flex;
+    margin: 50px 0px;
+    gap: 33px;
+
+}
+main .five .five-top .left-top{
+    width: 532px;
+    height: 424px;
+    padding-right: 15px;
+}
+main .five .five-top .left-top h3{
+    padding-right: 100px;
+    padding-bottom: 35px;
+}
+main .five .five-top .left-top>ul{
+    padding: 0px 20px;
+}
+main .five .five-top .left-top>ul>li{
+    padding:31px 0px ;
+}
+main .five .five-top .right-top{
+    width: 610px;
+    height: 424px;
+    background-image: url(Images/Group\ 40089.png);
+    background-size: cover;
+    padding: 171px;
+    text-align: center;
+}
+main .five .five-top .right-top p{
+    color: #ffffff;
+    font-size: 24px;
+}
+/**/
+
+main .five .five-bottom{
+    display: flex;
+    display: flex;
+    margin: 50px 0px;
+    gap: 33px;
+    
+}
+
+main .five .five-bottom .left-bottom{
+    width: 474px;
+    height: 422px;
+}
+main .five .five-bottom .left-bottom{
+    border: 1px solid #ff5400;
+    border-radius: 15px;
+    padding: 40px;
+}
+main .five .five-bottom .left-bottom .text-in{
+    padding-right: 20px;
+}
+main .five .five-bottom .left-bottom .submit-in{
+    display: grid;
+    row-gap: 20px;
+}
+main .five .five-bottom .left-bottom .submit-in > input{
+    width: 393px;
+    height: 52px;
+    border: 2px solid #F3F3F3;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+
+main .five .five-bottom .left-bottom .submit-in >.s-btn{
+    background-color: #ff5400;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**/
+main .five .five-bottom .right-bottom{
+    width: 672px;
+    height: 422px;
+    background-image: url(Images/Rectangle\ 8\ \(1\).png);
+    background-size: cover;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: #F3F3F3;
+    padding: 50px 0px;
+}
+
+footer .footer-in{
+    width: 872px;
+    margin: auto;
+    text-align: center;
+}
+footer .footer-in>p{
+    padding: 11px 58px;
+}
+footer .footer-in>i{
+    padding: 20px 0px;
+}
+
 /*  */
 
 
@@ -485,6 +586,11 @@ main .five {
 /*  same items  */
 i {
     padding-right: 10px;
+}
+
+hr{
+    color: #e8e8e8;
+  margin: 30px 0px;
 }
 
 p {
@@ -515,4 +621,8 @@ h4 {
 h5 {
     font-size: 28px;
     font-weight: bold;
+}
+
+h6{
+    font-size: 24px;
 }
