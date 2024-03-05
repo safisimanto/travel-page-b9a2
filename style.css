@@ -26,7 +26,9 @@ header .nev .logo {
     align-items: center;
 
 }
-
+.siya-clr {
+    color: #ff5400;
+}
 header .nev .logo .siya-clr {
     color: #ff5400;
 }
@@ -102,22 +104,38 @@ header .banner-area .banner-area-in .banner-search {
     justify-content: space-evenly;
 }
 
-header .banner-area .banner-area-in .banner-search>input {
-    width: 174px;
-    height: 52px;
-    padding: 0px 5px;
+header .banner-area .banner-area-in .banner-search .search-in {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+
 }
 
-/*  */
+header .banner-area .banner-area-in .banner-search .search-in>input {
+    width: 174px;
+    height: 52px;
+    padding: 0px 10px;
+}
 
-button {
+header .banner-area .banner-area-in .banner-search .search-in>.find {
+    width: 174px;
+    height: 52px;
     background-color: #ff5400;
-    padding: 16px 50px;
     border: 2px solid #ff5400;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
+    font-size: 20px;
+    padding: 0px 0px;
+    cursor: pointer;
 }
+
+/*  */
+
+
 
 /*  */
 main .one {
@@ -166,7 +184,8 @@ main .two {
 main .two .two-text {
     width: 643px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
+
 }
 
 main .two .two-text p {
@@ -286,14 +305,19 @@ main .three {
 
 }
 
+main .three h4 {
+    margin: 20px 0px;
+}
+
 main .three .three-text {
     width: 643px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
 }
 
 main .three .three-text p {
     margin: 20px 0px;
+
 }
 
 main .three .top-box {
@@ -304,27 +328,33 @@ main .three .top-box {
 }
 
 main .three .top-box .box-left {
+    margin: 20px 0px;
     width: 543px;
     height: 283px;
     background-color: #fffbf7;
-    border: 3px solid #feefdd;
+    border: 2px solid #feefdd;
+    padding: 25px;
+    margin: auto;
     border-radius: 10px;
-    padding: 20px;
 }
 
-main .three .top-box .box-left,
-.box-right>i {
+main .three .top-box .box-left>i {
     font-size: 100px;
-    padding: 10px 0px;
+}
+
+main .three .top-box .box-right>i {
+    font-size: 100px;
 }
 
 main .three .top-box .box-right {
+    margin: 20px 0px;
     width: 543px;
     height: 283px;
     background-color: #f4fdff;
     border: 3px solid #e4fafe;
+    padding: 25px;
+    margin: auto;
     border-radius: 10px;
-    padding: 20px;
 }
 
 
@@ -335,14 +365,13 @@ main .three .bottom-box {
     height: 283px;
     background-color: #fffbf7;
     border: 2px solid #feefdd;
-    padding: 20px;
+    padding: 25px;
     margin: auto;
     border-radius: 10px;
 }
 
-main .three .bottom-box>i {
+main .three .bottom-box i {
     font-size: 100px;
-    padding: 10px 0px;
 }
 
 
@@ -362,17 +391,14 @@ main .four {
 main .four .four-text {
     width: 643px;
     text-align: center;
-    margin: auto;
+    margin: 50px auto;
 }
 
 main .four .four-text p {
     margin: 20px 0px;
 }
 
-main .four 
-.discount-1,
-.discount-2,
-.discount-3{
+main .four .discount-1{
     width: 1170px;
     height: 500px;
     background-image: url(Images/Group\ 39.png);
@@ -382,62 +408,73 @@ main .four
     justify-content: right;
     align-items: center;
     padding-right: 86px;
+    text-align: left;
 }
-main .four 
-.discount-1 .discount-in-1{
+
+
+
+main .four .discount-1 .discount-in-1 {
     width: 579px;
     height: 389px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
-    padding: 87px 70px;
-    
+    padding: 35px 70px;
+
 }
 
-main .four 
-.discount-2 .discount-in-2{
+main .four i {
+    color: #ff5400;
+}
+
+main .four .f-price {
+    color: #ff5400;
+    margin: 25px 0px;
+}
+
+main .four .space {
+    padding-left: 10px;
+}
+
+main .four .discount-2 .discount-in-2 {
     width: 579px;
     height: 389px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
-    padding: 87px 70px;
-    
+    padding: 35px 70px;
+
 }
 
-main .four 
-.discount-3 .discount-in-3{
+main .four .discount-3 .discount-in-3 {
     width: 579px;
     height: 389px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
-    padding: 87px 70px;
-    
+    padding: 35px 70px;
+
 }
 
-main .four 
-.discount-1 .discount-in-1 p{
+main .four .discount-1 .discount-in-1 p {
     margin: 20px 0px;
 }
 
-main .four 
-.discount-2 .discount-in-2 p{
+main .four .discount-2 .discount-in-2 p {
     margin: 20px 0px;
 }
 
-main .four 
-.discount-3 .discount-in-3 p{
+main .four .discount-3 .discount-in-3 p {
     margin: 20px 0px;
 }
 
 
-main .four .discount-2{
+main .four .discount-2 {
     background-image: url(Images/Group\ 40.png);
 }
 
 
-main .four .discount-2{
+main .four .discount-2 {
     width: 1170px;
     height: 500px;
-    background-image: url(Images/Group\ 39.png);
+    background-image: url(Images/Group\ 40.png);
     background-size: cover;
     margin: 20px 0px;
     display: grid;
@@ -447,12 +484,17 @@ main .four .discount-2{
 }
 
 
-main .four .discount-3{
+main .four .discount-3 {
     width: 1170px;
     height: 500px;
     background-image: url(Images/Group\ 39.png);
     background-size: cover;
     margin: 20px 0px;
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    padding-right: 86px;
+    text-align: left;
 }
 
 
@@ -462,7 +504,7 @@ main .four .discount-3{
 
 
 
-/*  */
+/* five */
 
 
 main .five {
@@ -471,66 +513,84 @@ main .five {
 
 }
 
-main .five .five-top{
+main .five .five-top {
     display: flex;
     margin: 50px 0px;
     gap: 33px;
 
 }
-main .five .five-top .left-top{
+
+main .five .five-top .left-top {
     width: 532px;
     height: 424px;
     padding-right: 15px;
 }
-main .five .five-top .left-top h3{
+
+main .five .five-top .left-top h3 {
     padding-right: 100px;
     padding-bottom: 35px;
 }
-main .five .five-top .left-top>ul{
+
+main .five .five-top .left-top>ul {
     padding: 0px 20px;
+    font-weight: bold;
 }
-main .five .five-top .left-top>ul>li{
-    padding:31px 0px ;
+
+main .five .five-top .left-top>ul>li {
+    padding: 21px 0px;
+
 }
-main .five .five-top .right-top{
+
+main .five .five-top .left-top button {
+    margin-top: 35px;
+
+}
+
+main .five .five-top .right-top {
     width: 610px;
     height: 424px;
     background-image: url(Images/Group\ 40089.png);
     background-size: cover;
     padding: 171px;
     text-align: center;
+    border-radius: 15px;
 }
-main .five .five-top .right-top p{
+
+main .five .five-top .right-top p {
     color: #ffffff;
     font-size: 24px;
 }
+
 /**/
 
-main .five .five-bottom{
-    display: flex;
+main .five .five-bottom {
     display: flex;
     margin: 50px 0px;
     gap: 33px;
-    
+
 }
 
-main .five .five-bottom .left-bottom{
+main .five .five-bottom .left-bottom {
     width: 474px;
     height: 422px;
 }
-main .five .five-bottom .left-bottom{
+
+main .five .five-bottom .left-bottom {
     border: 1px solid #ff5400;
     border-radius: 15px;
     padding: 40px;
 }
-main .five .five-bottom .left-bottom .text-in{
+
+main .five .five-bottom .left-bottom .text-in {
     padding-right: 20px;
 }
-main .five .five-bottom .left-bottom .submit-in{
+
+main .five .five-bottom .left-bottom .submit-in {
     display: grid;
     row-gap: 20px;
 }
-main .five .five-bottom .left-bottom .submit-in > input{
+
+main .five .five-bottom .left-bottom .submit-in>input {
     width: 393px;
     height: 52px;
     border: 2px solid #F3F3F3;
@@ -538,15 +598,16 @@ main .five .five-bottom .left-bottom .submit-in > input{
     padding: 0px 10px;
 }
 
-main .five .five-bottom .left-bottom .submit-in >.s-btn{
+main .five .five-bottom .left-bottom .submit-in>.s-btn {
     background-color: #ff5400;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /**/
-main .five .five-bottom .right-bottom{
+main .five .five-bottom .right-bottom {
     width: 672px;
     height: 422px;
     background-image: url(Images/Rectangle\ 8\ \(1\).png);
@@ -557,21 +618,25 @@ main .five .five-bottom .right-bottom{
 
 /* footer */
 
-footer{
+footer {
     background-color: #F3F3F3;
     padding: 50px 0px;
 }
 
-footer .footer-in{
+footer .footer-in {
     width: 872px;
     margin: auto;
     text-align: center;
 }
-footer .footer-in>p{
+
+footer .footer-in>p {
     padding: 11px 58px;
 }
-footer .footer-in>i{
+
+footer .footer-in>i {
     padding: 20px 0px;
+    padding: 20px 13px;
+    font-size: 28px;
 }
 
 /*  */
@@ -588,9 +653,20 @@ i {
     padding-right: 10px;
 }
 
-hr{
+button {
+    background-color: #ff5400;
+    padding: 16px 50px;
+    border: 2px solid #ff5400;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+hr {
     color: #e8e8e8;
-  margin: 30px 0px;
+    margin: 30px 0px;
 }
 
 p {
@@ -623,6 +699,342 @@ h5 {
     font-weight: bold;
 }
 
-h6{
+h6 {
     font-size: 24px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 0px 20px;
+    }
+
+    header .nev {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 0px;
+    }
+
+    header .nev .logo {
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+    }
+
+
+    header .nev .menu {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    header .banner-area {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    header .banner-area .banner-area-in {
+        width: auto;
+        height: auto;
+
+    }
+
+    header .banner-area .banner-area-in .banner-contant {
+
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 5px 0px
+    }
+
+
+    header .banner-area .banner-area-in .banner-search .search-in {
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    header .banner-area .banner-area-in .banner-search .search-in>input {
+        width: 450px;
+        height: 52px;
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+
+    header .banner-area .banner-area-in .banner-search .search-in>.find {
+        width: 450px;
+        height: 52px;
+    }
+
+    main .one {
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .one .one-left {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    main .one .one-left p {
+        margin: 25px 0px;
+        font-size: 1rem;
+
+    }
+
+    main .one .one-left ul {
+        padding: 0px 51px;
+    }
+
+
+    main .one .one-right {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    /* two */
+
+    main .two {
+        padding: 0px 20px;
+        margin: 100px 0px;
+
+    }
+
+    main .two .two-text {
+        width: auto;
+        text-align: center;
+        margin: 50px auto;
+
+    }
+
+    main .two .two-all-place-img .top-img,
+    .midel-img,
+    .bottom-img {
+        flex-direction: column;
+
+    }
+
+    main .two .two-all-place-img .top-img>.item-one {
+        width: auto;
+        height: 300px;
+
+    }
+
+    main .two .two-all-place-img .top-img>.item-two {
+        width: auto;
+        height: 300px;
+
+    }
+
+    main .two .two-all-place-img .midel-img>.item-one {
+        width: auto;
+        height: 300px;
+    }
+
+    main .two .two-all-place-img .midel-img>.item-two {
+        width: auto;
+        height: 300px;
+
+    }
+
+    main .two .two-all-place-img .midel-img>.item-three {
+        width: auto;
+        height: 300px;
+
+    }
+
+    main .two .two-all-place-img .bottom-img>.item-one {
+        width: auto;
+        height: 300px;
+
+    }
+
+    main .two .two-all-place-img .bottom-img>.item-two {
+        width: auto;
+        height: 300px;
+
+    }
+
+
+
+    /* three */
+    main .three {
+        padding: 0px 20px;
+        margin: 100px 0px;
+
+    }
+
+    main .three .three-text {
+        width: auto;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    main .three .top-box {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    main .three .top-box .box-left {
+        width: auto;
+        height: auto;
+        padding: 50px;
+    }
+
+    main .three .top-box .box-right {
+        width: auto;
+        height: auto;
+        padding: 50px;
+    }
+
+    main .three .bottom-box {
+        width: auto;
+        height: auto;
+        padding: 50px;
+    }
+
+
+
+    /*four*/
+
+
+    main .four {
+        padding: 0px 20px;
+
+    }
+
+    main .four .four-text {
+        width: auto;
+    }
+
+
+
+
+    /*                  */
+
+
+    main .four .discount-1{
+        width: 535px;
+        height: 700px;
+        border-radius: 15px;
+    }
+
+    main .four .discount-1 .discount-in-1 {
+        width: 430px;
+        height: auto;
+        margin-left: 51px;
+        margin-top: 171px;
+        border-radius: 15px;
+        padding: 33px;
+
+    }
+
+    main .four .discount-2{
+        width: 535px;
+        height: 700px;
+    }
+
+    main .four .discount-2 .discount-in-2 {
+        width: 430px;
+        height: auto;
+        margin-right: 51px;
+        margin-top: 171px;
+        border-radius: 15px;
+        padding: 33px;
+    }
+    
+    main .four .discount-3{
+        width: 535px;
+        height: 700px;
+    }
+
+    main .four .discount-3 .discount-in-3 {
+        width: 430px;
+        height: auto;
+        margin-left: 51px;
+        margin-top: 171px;
+        border-radius: 15px;
+        padding: 33px;
+    }
+
+
+/* five */
+
+
+main .five {
+    padding: 0px 20px;
+
+}
+
+main .five .five-top {
+    display: flex;
+    flex-direction: column;
+
+}
+main .five .five-top .left-top {
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+}
+
+main .five .five-top .right-top {
+    width: auto;
+    height: auto;
+    padding: 135px;
+    
+}
+
+main .five .five-bottom {
+    flex-direction: column;
+
+}
+
+main .five .five-bottom .left-bottom {
+    width: auto;
+    height: auto;
+}
+
+main .five .five-bottom .left-bottom .submit-in>input {
+    width: auto;
+    height: 52px;
+}
+
+/**/
+main .five .five-bottom .right-bottom {
+    width: auto;
+    height: auto;
+}
+
+
+footer .footer-in {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+    p {
+        color: #131318;
+    }
+
+
+
+
+
+
 }
