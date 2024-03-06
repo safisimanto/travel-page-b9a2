@@ -12,6 +12,9 @@
 header {
     padding: 0px 202px;
 }
+header p{
+    color: #ffffff;
+}
 
 header .nev {
     display: flex;
@@ -24,8 +27,16 @@ header .nev .logo {
     display: flex;
     width: 50%;
     align-items: center;
+    position: relative;
 
 }
+header .nev .logo .extra{
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    display: none;
+}
+
 .siya-clr {
     color: #ff5400;
 }
@@ -46,6 +57,7 @@ header .nev .logo .logo-img img {
 header .nev .menu {
     width: 50%;
 }
+
 
 header .nev .menu ul {
     display: flex;
@@ -118,7 +130,10 @@ header .banner-area .banner-area-in .banner-search .search-in>input {
     width: 174px;
     height: 52px;
     padding: 0px 10px;
+    border-radius: 8px;
 }
+
+
 
 header .banner-area .banner-area-in .banner-search .search-in>.find {
     width: 174px;
@@ -726,11 +741,14 @@ h6 {
         align-items: center;
 
     }
-
+    header .nev .logo .extra{
+        display: block;
+    }
 
     header .nev .menu {
         width: 100%;
         margin: 20px 0px;
+        display: none;
     }
 
     header .banner-area {
@@ -928,29 +946,30 @@ h6 {
     main .four .discount-1{
         width: 535px;
         height: 700px;
-        border-radius: 15px;
+        padding-right: 51px;
+        padding-top: 171px;
     }
 
     main .four .discount-1 .discount-in-1 {
         width: 430px;
         height: auto;
-        margin-left: 51px;
-        margin-top: 171px;
         border-radius: 15px;
         padding: 33px;
+        
 
     }
 
     main .four .discount-2{
         width: 535px;
         height: 700px;
+        padding-left: 51px;
+        padding-top: 171px;
+        text-align: left;
     }
 
     main .four .discount-2 .discount-in-2 {
         width: 430px;
         height: auto;
-        margin-right: 51px;
-        margin-top: 171px;
         border-radius: 15px;
         padding: 33px;
     }
@@ -958,14 +977,13 @@ h6 {
     main .four .discount-3{
         width: 535px;
         height: 700px;
+        padding-top: 171px;
+        padding-right: 51px;
     }
 
     main .four .discount-3 .discount-in-3 {
         width: 430px;
         height: auto;
-        margin-left: 51px;
-        margin-top: 171px;
-        border-radius: 15px;
         padding: 33px;
     }
 
